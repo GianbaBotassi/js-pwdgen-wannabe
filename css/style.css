@@ -1,0 +1,33 @@
+/* GENERAL RULES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2{
+    margin:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5rem;
+}
+/* SITE SECTION */
+#cont{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/ransom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cont>div{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#cont h1{
+    font-weight: 700;
+}
+#pwd_wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+    word-break: break-all;
+}
+
+/* DEBUG */

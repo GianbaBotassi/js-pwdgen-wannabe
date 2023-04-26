@@ -4,11 +4,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
 
+    <!-- Main section -->
+
+    <div id="cont" class="d-flex justify-content-center align-items-center">
+
+        <div class="col-11 col-md10 rounded-pill d-flex flex-column justify-content-center align-items-center p-4">
+            <h1 class="text-white mb-4 col-10 text-center">Secure PWD Gen</h1>
+
+            <!-- Pwd-wrapper -->
+            
+            <div id="pwd_wrapper" class="rounded-pill col-11 col-md-10 d-flex align-items-center justify-content-center p-4">
+                <h2 id="pwd" class="text-center"></h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link Javascript -->
     <script src="js/script.js"></script>
 </body>
 </html>
